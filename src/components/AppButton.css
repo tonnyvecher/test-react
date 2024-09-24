@@ -1,0 +1,25 @@
+.app-button {
+  color: #949494;
+  font-size: 30px;
+  padding: 10px 20px;
+  transition: color 0.2s ease-out;
+}
+
+.app-button:hover {
+  color: #ffffff;
+  background: #2c62edb9;
+}
+
+@media (max-width: 768px) {
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap");
+
+.app-tab__header {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.app-tab-button {
+  flex: 1;
+  padding: 2rem;
+  border: 2px solid var(--text-color);
+  text-align: center;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  font-size: 2rem;
+}
+
+.app-tab-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  width: 80rem;
+  border-radius: 2rem;
+  padding: 4rem;
+  box-shadow: inset -3px -3px 3px rgba(0, 0, 0, 0.2),
+    inset 3px 3px 3px rgba(0, 0, 0, 0.2);
+  gap: 2rem;
+}
+
+.app-tab-content__content {
+  padding: 2rem;
+  min-height: 25rem;
+  border: 2px solid var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  background: #fff;
+  border-radius: 2rem;
+}
+
+.app-tab__content img {
+  max-width: 31rem;
+  max-height: 20rem;
+  width: 100%;
+}
+
+.app-tab__content p {
+  text-align: center;
+}
+
+.app-tab-button--active {
+  background: var(--text-color);
+
+  color: #3818c7;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) {
+  .app-tab__header {
+    flex-wrap: wrap;
+  }
+
+  .app-tab__content {
+    gap: 2rem;
+    min-height: 35rem;
+  }
+  .app-tab__button {
+    font-size: 1.6rem;
+  }
+
+  .app-tab__container {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .app-tab__content img {
+    max-width: 150px;
+  }
+
+  .app-tab__content p {
+    font-size: 1.6rem;
+  }
+}

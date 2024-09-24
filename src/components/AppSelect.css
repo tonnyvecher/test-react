@@ -1,0 +1,12 @@
+.app-select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.app-select:focus-within {
+  border-color: #007bff;
+  outline: none;
+}

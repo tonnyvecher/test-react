@@ -1,0 +1,28 @@
+.app-accordion {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.app-accordion__label {
+  background-color: #f7f7f7;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-accordion__content {
+  max-height: 0;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.app-accordion__content--active {
+  max-height: 200px;
+  transition: max-height 0.3s ease;
+}
+
+.app-accordion__content-text {
+  padding: 10px;
+}

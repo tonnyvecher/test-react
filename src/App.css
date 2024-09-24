@@ -1,0 +1,51 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #f5f5f5;
+  color: #111;
+  font: 14px Helvetica Neue, Helvetica, Arial, sans-serif;
+  /* font-weight: 300; */
+  /* line-height: 1.4em; */
+  /* margin: 0 auto;
+  max-width: 550px;
+  min-width: 230px; */
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  margin: 130px 0 40px;
+  position: relative; */
+}
+
+.todo-app {
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  /* margin: 130px 0 40px; */
+}
+
+.main {
+  border-top: 1px solid #e6e6e6;
+  z-index: 2;
+}
+
+main {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.info p {
+  line-height: 1;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.info {
+  color: #4d4d4d;
+  font-size: 11px;
+  /* margin: 65px auto 0; */
+  text-align: center;
+  text-shadow: 0 1px 0 hsla(0, 0%, 100%, 0.5);
+}

@@ -1,0 +1,23 @@
+.app-button {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: black;
+}
+
+.app-button:disabled {
+  cursor: not-allowed;
+  background-color: #f1f1f1;
+}
+
+.app-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.app-button:hover {
+  background-color: #e9ecef;
+}

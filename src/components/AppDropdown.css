@@ -1,0 +1,28 @@
+.app-dropdown {
+  position: relative;
+}
+
+.app-dropdown__toggle {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+
+.app-dropdown__menu {
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  position: absolute;
+}
+
+.app-dropdown__item {
+  padding: 10px;
+}
+
+.app-dropdown__item:hover {
+  background-color: #e0e0e0;
+}
